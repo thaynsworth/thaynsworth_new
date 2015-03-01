@@ -2,10 +2,22 @@ html {
 	font: 100%/1.5em;
 }
 
-#stars {
-	background-image: url("../img/stars.jpg");
+nav {
+	position: fixed;
+
 }
 
+#main {
+	height: 5000px;
+}
+
+#stars-top {
+	height: 500px;
+}
+
+#stars-bottom {
+
+}
 
 /*header.band {
 	background: black;
@@ -41,7 +53,7 @@ header.band h1 {
     -moz-transition: background 0.2s ease-out;  /* Firefox 4-15 */
     -o-transition: background 0.2s ease-out;  /* Opera 10.5–12.00 */
     transition: background 0.2s ease-out;  /* Firefox 16+, Opera 12.50+ */
-}
+/*}
 
 a.button:hover {
     background: #ab3009;*/
